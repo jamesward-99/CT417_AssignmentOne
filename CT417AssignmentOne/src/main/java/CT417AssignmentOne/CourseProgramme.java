@@ -78,4 +78,5 @@ public class CourseProgramme {
 	public String toString() {
 		return "\nCourse Name: " +courseName +"... Start Date: " +startDate+ " ... Finish Date: " +finishDate; 
 	}
+	
 }
