@@ -12,7 +12,7 @@ public class Module {
 	public ArrayList<Student> students;
 	public ArrayList<CourseProgramme> courses;
 	
-	public Module(String moduleName, String moduleId) {
+	public Module(/*String moduleName, String moduleId */) {
 		this.moduleName = moduleName;
 		this.moduleId = moduleId;
 		this.students = new ArrayList<>();
