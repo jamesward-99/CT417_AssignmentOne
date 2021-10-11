@@ -14,7 +14,7 @@ public class CourseProgramme {
 	public LocalDate startDate;
 	public LocalDate finishDate;
 	
-	public CourseProgramme(/*String courseName, LocalDate startDate, LocalDate finishDate */) {
+	public CourseProgramme(String courseName, LocalDate startDate, LocalDate finishDate) {
 		this.courseName = courseName;
 		this.modulesRegisteredFor = new ArrayList<>();
 		this.students = new ArrayList<>();

@@ -3,6 +3,7 @@
  */
 package CT417AssignmentOne;
 
+import org.joda.time.LocalDate;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import java.util.ArrayList;
@@ -35,8 +36,6 @@ public class ModuleTest {
 		assertEquals(moduleId, module.moduleId);
 	}
 	
-	
-	
 	@Test
 	public void AddStudentTest() {
 		Student student = new Student("James", 22, "06/08/1999", 18394566);
@@ -47,7 +46,7 @@ public class ModuleTest {
 
 	@Test
 	public void AddCourseTest() {
-		CourseProgramme course = new CourseProgramme();
+		CourseProgramme course = new CourseProgramme("CS & IT", new LocalDate(2021, 9, 6), new LocalDate(2022, 5, 11));
 		module.addCourse(course);
 		ArrayList<CourseProgramme> courses = module.getCourse();
 		assertEquals(1, courses.size());
