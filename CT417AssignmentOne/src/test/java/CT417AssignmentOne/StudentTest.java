@@ -67,7 +67,7 @@ public class StudentTest {
 	
 	@Test
 	public void AddModuleTest() {
-		Module module = new Module();
+		Module module = new Module("Software Engineering", "CT417");
 		student.addModule(module);
 		ArrayList<Module> modules = student.getModulesRegisteredFor();
 		assertEquals(1, modules.size());

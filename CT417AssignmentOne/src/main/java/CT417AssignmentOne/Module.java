@@ -12,14 +12,14 @@ public class Module {
 	public ArrayList<Student> students;
 	public ArrayList<CourseProgramme> courses;
 	
-	public Module(/*String moduleName, String moduleId */) {
+	public Module(String moduleName, String moduleId) {
 		this.moduleName = moduleName;
 		this.moduleId = moduleId;
 		this.students = new ArrayList<>();
 		this.courses = new ArrayList<>();
 	}
 	
-	public String geModuleName() {
+	public String getModuleName() {
 		return moduleName;
 	}
 	
@@ -27,7 +27,7 @@ public class Module {
 		this.moduleName = moduleName;
 	}
 	
-	public String geModuleId() {
+	public String getModuleId() {
 		return moduleId;
 	}
 	
