@@ -1,5 +1,5 @@
 /*	Student Test Class
- *  Name: James Ward, ID: 18394566
+ *	Name: James Ward, ID: 18394566
  */
 package CT417AssignmentOne;
 
