@@ -29,7 +29,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     
     //This dependency tracks the build (jitpack)
-    implementation 'com.github.jamesward-99:CT417_AssignmentOne:-SNAPSHOT'
+    implementation 'com.github.jamesward-99:CT417_AssignmentOne:Tag'
     
     // https://mvnrepository.com/artifact/org.terasoluna.gfw/terasoluna-gfw-jodatime
 	implementation 'org.terasoluna.gfw:terasoluna-gfw-jodatime:5.7.0.RELEASE'
