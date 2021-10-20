@@ -14,9 +14,7 @@ plugins {
 repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
-    //google()
     jcenter()
-    //maven { url 'https://jitpack.io' }
 }
 
 dependencies {
@@ -31,8 +29,4 @@ dependencies {
     
     // https://mvnrepository.com/artifact/org.terasoluna.gfw/terasoluna-gfw-jodatime
 	implementation 'org.terasoluna.gfw:terasoluna-gfw-jodatime:5.7.0.RELEASE'
-	
-	// Jitpack adding CT417_AssignmentOne as a dependency
-	// implementation 'com.github.jamesward-99:CT417_AssignmentOne:v2.0'
-  
 }
